@@ -1,0 +1,76 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+   
+}
+.bord{   
+margin-left: 180px;
+ background-color: red;
+ height: 630px;
+ width: 1020px;
+}
+.bord:hover{
+    
+    animation-name: example;
+    animation-duration: 4s;
+    
+}
+@keyframes example {
+    0%   {background-color:red; }
+    25%  {background-color:yellow; }
+    50%  {background-color:blue; }
+    75%  {background-color:green; }
+    100% {background-color:red; }
+  }
+
+.Main{
+    width: 1000px;
+    height: 600px;
+    background-color: black;
+    border-style: none;
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.IMAGE{
+    width: 900px;
+  
+}
+.image2{
+  
+  position: absolute;
+
+
+}
+.p1{
+    
+    position: absolute;
+    font-size: 40px;
+    margin-left: 100px;
+}
+li{
+    display: inline;
+    margin: 20px;
+    font-weight: bold;
+}
+.yawa{
+    position: absolute;
+    margin-left: 300px;
+    
+}
+.left{
+    position: absolute;
+    font-size: 30px;
+    margin-left: 585px;
+    margin-top: 100px;
+}
+.back{
+    position: absolute;
+   font-size: 150px;
+   font-weight: 100;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   color: red;
+   margin-left: 100px;
+   margin-top: 150px;
+}
